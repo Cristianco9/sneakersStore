@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.nav {
+    background: linear-gradient(to top, #FF0400, #D62222);
+    width: 100vw;
+    height: 9vh;
+}
+
+.nav-item {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    top: 0.7rem;
+    left: 51.5rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+#logo {
+    position:relative;
+    width: 8rem;
+    top: -2.3rem;
+    left: 4rem;
+}
+
+.sideBar {
+    background: linear-gradient(70deg, #E3E3E3, #aaaaaa);
+    width: 28rem;
+    height: 51rem;
+}
+
+.sideElement1 {
+    background-color: #F1F1F1;
+    width: 19vw;
+    height: 16.5vh;
+    position: relative;
+    top: 1.3rem;
+    left: 1.9rem;
+    border-radius: 10px;
+}
+
+.sideElement2 {
+    background-color: #F1F1F1;
+    width: 19vw;
+    height: 16.5vh;
+    position: relative;
+    top: 3.3rem;
+    left: 1.9rem;
+    border-radius: 10px;
+}
+
+.sideElement3 {
+    background-color: #F1F1F1;
+    width: 19vw;
+    height: 16.5vh;
+    position: relative;
+    top: 5.3rem;
+    left: 1.9rem;
+    border-radius: 10px;
+}
+
+.sideElement4 {
+    background-color: #F1F1F1;
+    width: 19vw;
+    height: 16.5vh;
+    position: relative;
+    top: 7.3rem;
+    left: 1.9rem;
+    border-radius: 10px;
+}
+
+#af1 {
+    position: relative;
+    width: 15rem;
+    top: 3rem;
+    left: 8rem;
+    z-index:9;
+}
+
+#aj1 {
+    position: relative;
+    width: 15rem;
+    top: 2rem;
+    left: 9.2rem;
+    z-index: 8;
+}
+
+#am {
+    position: relative;
+    width: 15rem;
+    top: -1.9rem;
+    left: 9.2rem;
+    z-index: 7;
+}
+
+#hc {
+    z-index: 10;
+    position: relative;
+    width: 15rem;
+    top: -2rem;
+    left: 9.2rem;
+}
+
+.paf1 {
+    position: relative;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 2rem;
+    font-weight: 600;
+    top: -6rem;
+    left: 2rem;
+}
+
+.paj1 {
+    position: relative;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 2rem;
+    font-weight: 600;
+    top: -8.5rem;
+    left: 2rem;
+}
+
+.pam {
+    position: relative;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 2rem;
+    font-weight: 600;
+    top: -14.5rem;
+    left: 2rem;
+}
+
+.phc {
+    position: relative;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 2rem;
+    font-weight: 600;
+    top: -14.5rem;
+    left: 2rem;
+}
+
+.footer {
+    width: 100vw;
+    /*height: 7rem;*/ 
+    height: 10.9vh;
+    background-color: black;
+    position: relative;
+}
+
+.lema {
+    font-family:'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 59rem;
+    top: 2.5rem;
+}
+
+.footerListR {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    font-size: 0.9rem;
+    left: 27rem;
+    top: -1.3rem;
+}
