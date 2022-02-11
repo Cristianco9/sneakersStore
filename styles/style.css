@@ -150,7 +150,7 @@ html {
 .footer {
     width: 100vw;
     /*height: 7rem;*/ 
-    height: 10.9vh;
+    height: 11.5vh;
     background-color: black;
     position: relative;
 }
@@ -163,10 +163,51 @@ html {
     text-align: center;
     position: relative;
     left: 59rem;
-    top: 2.5rem;
+    top: -1rem;
 }
 
-.footerListR {
+.p1 {
+    color: white;
+    font-weight: 500;
+    font-family: 'open Sans', sans-serif;
+    font-size: 1rem;
+    position: relative;
+    left: 96rem;
+    top: 0.5rem;
+}
+
+.p2 {
+    color: white;
+    font-weight: 800;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    position: relative;
+    left: 84.7rem;
+    top: -1rem;
+}
+
+#facebook {
+    width: 1rem;
+    position:relative;
+    top: 2.4rem;
+    left: 9rem;
+}
+
+#instagram {
+    width: 2.5rem;
+    position: relative;
+    top: 2.6rem;
+    left: 13rem
+}
+
+#youtube {
+    width: 3rem;
+    position: relative;
+    top: 2.6rem;
+    left: 18.3rem;
+}
+
+/*.footerListR {
     color:white;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
@@ -176,4 +217,85 @@ html {
     font-size: 0.9rem;
     left: 27rem;
     top: -1.3rem;
+}*/
+
+.FLR1 {
+    color: white;
+    font-weight: 500;
+    font-family: 'open Sans', sans-serif;
+    font-size: 1rem;
+    position: relative;
+    left: 53.5rem;
+    top: -3.9rem;
+}
+
+.FLR2 {
+    color: white;
+    font-weight: 500;
+    font-family: 'open Sans', sans-serif;
+    font-size: 1rem;
+    position: relative;
+    left: 47.7rem;
+    top: -2.2rem;
+}
+
+.FLR3 {
+    color: white;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    position: relative;
+    left: 39.8rem;
+    top: -0.5rem;
+}
+
+.FLR4 {
+    color: white;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    position: relative;
+    left: 30.3rem;
+    top:1.3rem;
+}
+
+.FLL1 {
+    color: white;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.4rem;
+    position: relative;
+    left: -24rem;
+    top: -3.9rem;
+
+}
+
+.FLL2 {
+    color: white;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.4rem;
+    position: relative;
+    left: -29.2rem;
+    top: -2.2rem;
+}
+
+.FLL3 {
+    color: white;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.4rem;
+    position: relative;
+    left: -34.4rem;
+    top: -0.5rem;
+}
+
+.FLL4 {
+    color: white;
+    font-weight: 500;
+    font-family: 'BEBAS Neue', cursive;
+    font-size: 1.4rem;
+    position: relative;
+    left: -41.5rem;
+    top: 1.2rem;
 }
