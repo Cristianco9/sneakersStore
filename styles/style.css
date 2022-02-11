@@ -8,6 +8,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    /*background-color:orange;*/
+}
+
 .nav {
     background: linear-gradient(to top, #FF0400, #D62222);
     width: 100vw;
@@ -33,6 +37,16 @@ html {
     left: 4rem;
 }
 
+.mainContainer {
+    width: 97.9rem;
+    height: 51rem;
+    background-color: #817F7F;
+    position: relative;
+    left: 28rem;
+    top: -1.7rem;
+
+}
+
 .sideBar {
     background: linear-gradient(70deg, #E3E3E3, #aaaaaa);
     width: 28rem;
@@ -50,13 +64,14 @@ html {
 }
 
 .sideElement2 {
-    background-color: #F1F1F1;
+    background: linear-gradient(220deg, #868686, #e7e7e7);
     width: 19vw;
     height: 16.5vh;
     position: relative;
     top: 3.3rem;
     left: 1.9rem;
     border-radius: 10px;
+    box-shadow: ;
 }
 
 .sideElement3 {
@@ -197,7 +212,7 @@ html {
     width: 2.5rem;
     position: relative;
     top: 2.6rem;
-    left: 13rem
+    left: 13.6rem
 }
 
 #youtube {
