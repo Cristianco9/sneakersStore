@@ -159,6 +159,7 @@ main {
     position: relative;
     left: 37rem;
     top: -20rem;
+    /* size "selected" background shadows */
     box-shadow: rgb(0, 0, 0) 0px 2px 2px;
 }
 
