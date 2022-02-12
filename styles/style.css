@@ -1,27 +1,28 @@
+/* universal properties*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* setting rem measuare*/
 html {
     font-size: 62.5%;
 }
 
-body {
-    /*background-color:orange;*/
-}
-
+/* limiting the maximun body wrowth */
 main {
     max-height: 79.5vh;
 }
 
+/* navigation bar */
 .nav {
     background: linear-gradient(to top, #FF0400, #D62222);
     width: 100vw;
     height: 9vh;
 }
 
+/*  navigation bar items */
 .nav-item {
     text-decoration: none;
     list-style: none;
@@ -34,6 +35,7 @@ main {
     font-size: 2.5rem;
 }
 
+/* navigation bar logo */
 #logo {
     position:relative;
     width: 8rem;
@@ -41,6 +43,7 @@ main {
     left: 4rem;
 }
 
+/* black suscription barner */
 .blackBar {
     width: 97.9rem;
     height: 2.7rem;
@@ -50,6 +53,7 @@ main {
     top: -5.2rem;
 }
 
+/* black suscription barner text  */
 .blackBarText {
     color: white;
     font-family: 'open Sans', sans-serif;
@@ -60,6 +64,7 @@ main {
     left: 2.5rem;
 }
 
+/*  black suscription barner text "Join Now" */
 .blackBarText1 {
     color: white;
     font-family: 'open Sans', sans-serif;
@@ -71,6 +76,7 @@ main {
     text-decoration: underline;
 }
 
+/* container of the selected item */
 .itemContainer {
     width: 53rem;
     height: 40rem;
@@ -79,15 +85,16 @@ main {
     border-radius: 1.5rem;
     top: -45.8rem;
     left: 32rem;
-    /*box-shadow: rgba(60, 64, 67, 0.3) 0px 6px 8px 0px, rgba(60, 64, 67, 0.15) 0px 6px 8px 6px;*/
     box-shadow: rgb(0, 0, 0) 0px 10px 20px;
 }
 
+/* photo of item selected */
 #iaj1 {
     position:relative;
     top: 6rem;
 }
 
+/* name of item selected */
 .aj1Title {
     color: white;
     font-weight: 800;
@@ -98,6 +105,7 @@ main {
     top: -29rem; 
 }
 
+/* short description item selected */
 .aj1Description {
     color:white;
     font-weight: 500;
@@ -107,7 +115,7 @@ main {
     left: 36.5rem;
     top: -25rem;
 }
-
+/* short description item selected */
 .aj1Description1 {
     color:white;
     font-weight: 500;
@@ -118,6 +126,7 @@ main {
     top: -25.5rem;
 }
 
+/* sizes buttons start */
 #size8 {
     position: relative;
     left: 31.2rem;
@@ -180,7 +189,9 @@ main {
     top: -19rem;
     box-shadow: rgb(255, 255, 255) 0px 1px 1px;
 }
+/* sizes buttons end*/
 
+/* price of item selected*/
 .price {
     font-family: 'Bebas Neue', cursive;
     font-size: 3.5rem;
@@ -191,6 +202,7 @@ main {
     top: -11rem
 }
 
+/* buy button */
 #buy {
     background-color: black;
     color: white;
@@ -207,6 +219,7 @@ main {
     height: 4rem;
 }
 
+/* the background */
 .mainContainer {
     width: 97.9rem;
     height: 51rem;
@@ -217,12 +230,14 @@ main {
 
 }
 
+/* left side bar*/
 .sideBar {
     background: linear-gradient(70deg, #E3E3E3, #aaaaaa);
     width: 28rem;
     height: 51rem;
 }
 
+/*  left side bar items start */
 .sideElement1 {
     background-color: #F1F1F1;
     width: 19vw;
@@ -233,7 +248,9 @@ main {
     border-radius: 10px;
 }
 
+/* the item "selected" */
 .sideElement2 {
+    /* item "selected" background color */
     background: linear-gradient(220deg, #868686, #e7e7e7);
     width: 19vw;
     height: 16.5vh;
@@ -241,6 +258,7 @@ main {
     top: 3.3rem;
     left: 1.9rem;
     border-radius: 10px;
+    /* item "selected" background shadows */
     box-shadow: rgb(0, 0, 0) 0px 5px 5px;
 }
 
@@ -264,6 +282,7 @@ main {
     border-radius: 10px;
 }
 
+/* left side bar items photo start */
 #af1 {
     position: relative;
     width: 11.5rem;
@@ -295,7 +314,9 @@ main {
     top: -2rem;
     left: 9.2rem;
 }
+/* left side bar items photo end */
 
+/* left side bar items name start */
 .paf1 {
     position: relative;
     font-family: 'Bebas Neue', cursive; 
@@ -331,7 +352,10 @@ main {
     top: -14.5rem;
     left: 2rem;
 }
+/* left side bar items name end */
+/* left side bar items end */
 
+/* footer */
 .footer {
     width: 100vw;
     /*height: 7rem;*/ 
@@ -340,6 +364,7 @@ main {
     position: relative;
 }
 
+/* "Just Do It" text */
 .lema {
     font-family:'Open Sans', sans-serif;
     font-weight: 900;
@@ -351,6 +376,7 @@ main {
     top: -1rem;
 }
 
+/* "copyright" text */
 .p1 {
     color: white;
     font-weight: 500;
@@ -361,6 +387,7 @@ main {
     top: 0.5rem;
 }
 
+/* "nike.com" text */
 .p2 {
     color: white;
     font-weight: 800;
@@ -371,6 +398,7 @@ main {
     top: -1rem;
 }
 
+/* facebook logo */
 #facebook {
     width: 1.1rem;
     position:relative;
@@ -378,6 +406,7 @@ main {
     left: 9rem;
 }
 
+/* instagram logo */
 #instagram {
     width: 2.6rem;
     position: relative;
@@ -385,6 +414,7 @@ main {
     left: 13.6rem
 }
 
+/* youtube logo */
 #youtube {
     width: 3rem;
     position: relative;
@@ -392,18 +422,7 @@ main {
     left: 18.3rem;
 }
 
-/*.footerListR {
-    color:white;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-    position: relative;
-    font-size: 0.9rem;
-    left: 27rem;
-    top: -1.3rem;
-}*/
-
+/* footer right list start */
 .FLR1 {
     color: white;
     font-weight: 500;
@@ -443,7 +462,9 @@ main {
     left: 30.3rem;
     top:1.3rem;
 }
+/* footer right list end */
 
+/* footer left list start */
 .FLL1 {
     color: white;
     font-weight: 500;
@@ -484,3 +505,4 @@ main {
     left: -41.5rem;
     top: 1.2rem;
 }
+/* footer left list end */
