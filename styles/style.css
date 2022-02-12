@@ -41,6 +41,36 @@ main {
     left: 4rem;
 }
 
+.blackBar {
+    width: 97.9rem;
+    height: 2.7rem;
+    background-color:black;
+    position: relative;
+    left: -4rem;
+    top: -5.2rem;
+}
+
+.blackBarText {
+    color: white;
+    font-family: 'open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    left: 2.5rem;
+}
+
+.blackBarText1 {
+    color: white;
+    font-family: 'open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: relative;
+    left: 3.5rem;
+    top: 0.5rem;
+    text-decoration: underline;
+}
+
 .itemContainer {
     width: 53rem;
     height: 40rem;
